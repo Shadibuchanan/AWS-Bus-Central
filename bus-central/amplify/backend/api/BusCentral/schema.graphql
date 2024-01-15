@@ -1,0 +1,19 @@
+type Bus @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  bus: String
+  isHere: Boolean
+  schoolID: ID! @index(name: "bySchool")
+  spot: String
+}
+
+type School @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  image: String
+  primaryColor: String
+  secondaryColor: String
+  Buses: [Bus] @hasMany(indexName: "bySchool", fields: ["id"])
+  password: String
+  busImage: String
+}
+ 

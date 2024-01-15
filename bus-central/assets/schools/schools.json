@@ -1,0 +1,43 @@
+[
+    {
+        "id": "1",
+        "school": {
+            "name": "Marjory Stoneman Douglas",
+            "image": "https://reactnative.dev/img/tiny_logo.png",
+            "primaryColor": "#800020",
+            "secondaryColor": "#C0C0C0"
+        },
+        "buses": {
+            "bus1": "1408",
+            "bus2": "1406",
+            "bus3": "1209"
+        },
+        "here": {
+            "here1": 1,
+            "here2": 0
+        },
+        "extra": {
+            "moreInfo": "nothing"
+        }
+    },
+  {
+        "id": "2",
+        "school": {
+            "name": "Westglades",
+            "image": "https://reactnative.dev/img/tiny_logo.png",
+            "primaryColor": "#000080",
+            "secondaryColor": "#FFFF00"
+        },
+        "buses": {
+            "bus1": "1499",
+            "bus2": "1407"
+        },
+         "here": {
+            "here1": true,
+            "here2": false
+        },
+        "extra": {
+            "moreInfo": "nothing"
+        }
+    }
+]

@@ -1,0 +1,26 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-buscentral-staging-193225-authRole",
+      "UnauthRoleArn": "arn:aws:iam::663179996296:role/amplify-buscentral-staging-193225-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::663179996296:role/amplify-buscentral-staging-193225-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-buscentral-staging-193225-deployment",
+      "UnauthRoleName": "amplify-buscentral-staging-193225-unauthRole",
+      "StackName": "amplify-buscentral-staging-193225",
+      "StackId": "arn:aws:cloudformation:us-east-1:663179996296:stack/amplify-buscentral-staging-193225/4fc0d080-ac9e-11ed-8147-0e491eba53b5",
+      "AmplifyAppId": "dv02m1tuzo1pl"
+    },
+    "categories": {
+      "auth": {
+        "BusCentral": {}
+      },
+      "storage": {
+        "buscentral6087631e": {
+          "bucketName": "buscentralbucket",
+          "region": "us-east-1"
+        }
+      }
+    }
+  }
+}
